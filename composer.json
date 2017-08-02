@@ -1,0 +1,20 @@
+{
+  "name": "fsantanajr/silex-basic",
+  "description": "Projeto de estudo de autenticação básica do silex",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Fernando Santana",
+      "email": "fernandosantanajr@gmail.com"
+    }
+  ],
+  "require": {
+    "silex/silex": "v2.2.0",
+    "symfony/security": "v3.3.6",
+    "symfony/twig-bridge": "v3.3.6"
+  },
+  "autoload": {
+    "psr-4": {"ExtratoLista\\": "src/"}
+  }
+}
